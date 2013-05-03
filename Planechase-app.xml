@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/3.2">
+  <id>PlaneAce</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>PlaneAce</filename>
+  <description/>
+<!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+  <name>PlaneAce</name>
+<!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+  <copyright/>
+  <initialWindow>
+    <content>Planechase.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>auto</renderMode>
+    <autoOrients>false</autoOrients></initialWindow>
+  <icon>
+    <image72x72>logo@72.png</image72x72>
+    <image48x48>logo@48.png</image48x48>
+    <image512x512>logo@512.png</image512x512>
+    <image114x114>logo@114.png</image114x114>
+    <image57x57>logo@57.png</image57x57>
+    <image29x29>logo@29.png</image29x29>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <iPhone>
+    <InfoAdditions>
+      <![CDATA[<key>UIDeviceFamily</key><array><string>1</string><string>2</string></array>]]>
+    </InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <supportedLanguages>en</supportedLanguages>
+</application>
